@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+  int a,b,result=1,c=0,d=0,e=0,f=1;
+  printf("enter a number:");
+  scanf("%d",&a);
+  for(b=2;b<a;b++)
+  {
+      if(a%b==0)
+      {
+      result=0;
+      break;
+      }
+  }
+  if(result)
+  {
+  printf("%d is a prime number\n1*%d=%d\n%d*1=%d\n",a,a,a,a,a);
+  
+  }
+  else
+  {
+      for(;d<a;d++)
+   {
+       c+=e;
+       e=f;
+       f=c;
+       printf("%d\n",c);
+   }}
+   return 0;
+}

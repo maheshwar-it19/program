@@ -1,0 +1,30 @@
+ #include <stdio.h>
+
+void main()
+{
+    int flag=0,i,n,a[15],x;
+    printf("how many terms do you want");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("enter a value to cmp");
+    scanf("%d",&x);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==x)
+        {
+            flag=1;
+            break;
+        }
+    }
+    if(flag==0)
+    {
+        printf("x not present");
+    }
+    else
+    {
+        printf("x is present in loc %d",i);
+    }
+}

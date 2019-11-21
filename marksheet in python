@@ -1,0 +1,12 @@
+a=input("enter your name:")
+b=input("enter the reg no:")
+c=int(input("mark of sub 1:"))
+d=int(input("mark of sub 2:"))
+e=int(input("mark of sub 3:"))
+f=int(input("mark of sub 4:"))
+g=int(input("mark of sub 5:"))
+h=c+d+e+f+g
+print("***************************************************************\n\t\t\tMARKSHEET\n***************************************************************\nstudent name:",a,"\nstudentreg no:",b)
+print("---------------------------------------------------------------\nsub name\t\t\tmark\n---------------------------------------------------------------")
+print("sub1\t\t\t",c,"\nsub2\t\t\t",d,"\nsub3\t\t\t",e,"\nsub4\t\t\t",f,"\nsub5\t\t\t",g,"\n---------------------------------------------------------------\nyour total:",h,"\navg:",h/5,"\n***************************************************************")
+

@@ -1,0 +1,35 @@
+a=int(input("enter 1st value:"))
+b=int(input("enter 2nd value:"))
+c=input("enter the symbol:")
+d=1
+e=1
+if(c=="+"):
+  print(a+b)
+elif(c=="-"):
+  print(a-b)
+elif(c=="*"):
+  print(a*b)
+elif(c=="/"):
+  print(a/b)
+elif(c=="%"):
+  print(a%b)
+elif(c=="="):
+  if(a==b):
+    print("they are equal")
+  else:
+    print("they are not equal")
+elif(c=="^"):
+  while(d<=b):
+      e=e*a
+      d=d+1
+  print(e)
+elif(c=="<"):
+  if(a<=b):
+    print("num 1 is smaller than num 2")
+  else:
+    print("num 1 is greater than num 2")
+elif(c==">"):
+  if(a>=b):
+    print("num 2 is smaller than num 1")
+  else:
+    print("num 2 is greater than num 1")

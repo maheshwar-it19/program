@@ -1,0 +1,30 @@
+def total(a,b,c,d,e):
+  return (a+b+c+d+e)
+def average(t):
+  return(t/5)
+def grade(mark):
+  if(mark>95):
+   return("O")
+  elif(mark>90 and mark<=95):
+   return("A")
+  elif(mark>80 and mark<=90):
+   return("B")
+  elif(mark>70 and mark<=80):
+   return("C")
+  elif(mark>60 and mark<=70):
+   return("D")
+  elif(mark>50 and mark<=60):
+   return("E")
+  elif(mark<50):
+   return("F")
+
+
+m1=int(input("enter the mark1:"))
+m2=int(input("enter the mark2:"))
+m3=int(input("enter the mark3:"))
+m4=int(input("enter the mark4:"))
+m5=int(input("enter the marh5:"))
+tol=total(m1,m2,m3,m4,m5)
+ave=average(tol)
+grd=grade(ave)
+print("total=",tol,"\naverage=",ave,"\ngrade=",grd)

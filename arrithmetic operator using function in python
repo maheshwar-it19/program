@@ -1,0 +1,28 @@
+def sum(e,f):
+  #a=int(input("enter a number:"))
+  #b=int(input("enter a number:"))
+  print("sum=",e+f)
+def sub(e,f):
+  #a=int(input("enter a max number:"))
+  #b=int(input("enter a min number:"))
+  print("sub=",e-f)
+def mul(e,f):
+  #a=int(input("enter a number:"))
+  #b=int(input("enter a number:"))
+  print("mul=",e*f)
+def div(e,f):
+  #a=int(input("enter a number:"))
+  #b=int(input("enter a number:"))
+  print("div=",e/f)
+
+a=input("enter the operator:")
+c=int(input("enter a number:"))
+d=int(input("enter a number:"))
+if(a=='+'):
+  sum(c,d)
+elif(a=='-'):
+  sub(c,d)
+elif(a=='*'):
+  mul(c,d)
+elif(a=='/'):
+  div(c,d)

@@ -1,0 +1,42 @@
+print("enter the character (a,b,c,d,e,f,g):\n\ta.sugar\t    40\n\tb.salt\t    10\n\tc.rice\t    80\n\td.wheat\t    30\n\te.tomato\t30\n\tf.potato\t20\n")
+total_amo=0
+z="yes"
+while(z=='yes'):
+  item=input("enter the item:")
+  if(item=='a'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*40)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+  elif(item=='b'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*10)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+  elif(item=='c'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*80)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+  elif(item=='d'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*30)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+  elif(item=='e'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*30)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+  elif(item=='f'):
+    qua=0
+    qua=int(input("enter the quantity:"))
+    total_amo+=(qua*20)
+    z=input("to continue shopping press 'yes'\nto decline shopping press'no':")
+    #continue
+print("total amount is ",total_amo)
